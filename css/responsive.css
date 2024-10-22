@@ -1,0 +1,29 @@
+@media (max-width: 1025px) {
+    .best_selling_section_article_container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .card_text {
+        align-items: center;
+    }
+
+    .best_selling_sect_top_cont h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .card,
+    .title_top_cont button {
+        width: 100%;
+    }
+
+    .title_top_cont {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
